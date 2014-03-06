@@ -1,0 +1,7 @@
+/Users/michael/Projects/NancyTest/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/michael/Projects/NancyTest/bin/Debug/NancyTest.exe.mdb
+/Users/michael/Projects/NancyTest/bin/Debug/NancyTest.exe
+/Users/michael/Projects/NancyTest/obj/x86/Debug/NancyTest.exe
+/Users/michael/Projects/NancyTest/obj/x86/Debug/NancyTest.exe.mdb
+/Users/michael/Projects/NancyTest/bin/Debug/Nancy.dll
+/Users/michael/Projects/NancyTest/bin/Debug/Nancy.Hosting.Self.dll
