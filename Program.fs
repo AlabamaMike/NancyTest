@@ -40,7 +40,7 @@ type WebServerModule() as this =
             new Nancy.Responses.HtmlResponse(
                 HttpStatusCode.OK,
                 (fun (s:Stream) ->
-                    let responseString = People.json paul
+                    let responseString = People.json [paul;denomy]
                     let responseText = System.Text.Encoding.ASCII.GetBytes(responseString)
                     s.Write(responseText,0,responseText.Length)
                 )

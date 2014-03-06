@@ -1,18 +1,17 @@
 ﻿module People
 
 open System
-open System.IO
-open System.Text
-open System.Runtime.Serialization.Json
-open System.Xml
+open Newtonsoft.Json
 
 type Name = string
 type Location = string
 type Person = {name:Name; loc:Location}
 
+let public json<'t> (myObj:'t) =   
+    Newtonsoft.Json.JsonConvert.SerializeObject myObj
 
-// Object to Json 
+(* // Object to Json 
 let public json<'t> (myObj:'t) =   
     use ms = new MemoryStream() 
     (new DataContractJsonSerializer(typeof<'t>)).WriteObject(ms, myObj) 
-    Encoding.Default.GetString(ms.ToArray()) 
+    Encoding.Default.GetString(ms.ToArray()) *) 
